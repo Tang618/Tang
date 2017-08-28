@@ -1,4 +1,4 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,15 +6,15 @@ namespace Tkx.Library
 {
    public  class Bus
     {
-
+		///Ìí¼ÓÈÕ¼Ç
         public Tkx.DbBase.ApiLog apiLog = new DbBase.ApiLog();
 
 
 
-        /// <summary>åˆ¤æ–­æ¥å£çš„è®¿é—®ä¸Šé™
+        /// <summary>ÅĞ¶Ï½Ó¿ÚµÄ·ÃÎÊÉÏÏŞ
         /// </summary>
-        /// <param name="controller">æ§åˆ¶å™¨</param>
-        /// <param name="action">æ–¹æ³•å</param>
+        /// <param name="controller">¿ØÖÆÆ÷</param>
+        /// <param name="action">·½·¨Ãû</param>
         /// <returns></returns>
         public  bool InterfaceCount(string controller, string action)
         {
